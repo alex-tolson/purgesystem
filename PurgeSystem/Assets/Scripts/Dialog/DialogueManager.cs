@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
-    public Text actorName;
+    public TextMeshProUGUI actorName;
     //public Text actorMessageText;
     //public Player playerScript;
     public Image dialoguePanel;
@@ -23,11 +24,11 @@ public class DialogueManager : MonoBehaviour
 
     private void Start()
     {
-        philSays.activeMyChoice = 0;
-        philSays.activeReply1 = 1;
-        philSays.activeReply2 = 0;
-        philSays.isButton1Clicked = false;
-        philSays.isButton2Clicked = false;
+        //philSays.activeMyChoice = 0;
+        //philSays.activeReply1 = 1;
+        //philSays.activeReply2 = 0;
+        //philSays.isButton1Clicked = false;
+        //philSays.isButton2Clicked = false;
     }
     private void Update()
     {

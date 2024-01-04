@@ -31,6 +31,9 @@ public class Talk : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        eUseImage.gameObject.SetActive(false);
+        if (eUseImage.gameObject.activeInHierarchy == true)
+        {
+            eUseImage.gameObject.SetActive(false);
+        }
     }
 }

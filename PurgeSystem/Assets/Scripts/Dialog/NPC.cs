@@ -9,7 +9,7 @@ public class NPC : MonoBehaviour
     public Button button1;
 
     public Button WinGame;
-    public Image dialogueBox;
+    public GameObject dialoguePanel;
 
     public DialogueManager dm;
 
@@ -18,7 +18,7 @@ public class NPC : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             dm.OpenDialogue();
-            dialogueBox.gameObject.SetActive(true);
+            dialoguePanel.gameObject.SetActive(true);
 
         }
     }

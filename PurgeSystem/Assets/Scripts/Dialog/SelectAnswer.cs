@@ -21,8 +21,9 @@ public class SelectAnswer : MonoBehaviour
     }
     public void AnswerSelection()
     {
+        _philSays.MyChoices();
         _bobSays.BobsReplies();
-         _philSays.ButtonReset();
+        _philSays.ButtonReset();
     }
        
 }

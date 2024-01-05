@@ -42,11 +42,11 @@ public class BobsOffice : MonoBehaviour
 
             if (off2Slider.value >= off2Slider.maxValue)    //if download is complete
             {
-                item.office3Item = true;
+                item.office0Item = true;
                 eUseImage.gameObject.SetActive(true);       //popup box actviates
                 off2Slider.gameObject.SetActive(false);     //Download bar deactivates
                 EToUse.text = dialog;                       //display downloaded information
-                playerScript.useOffice2Comp = false;
+                playerScript.useBobsComp = false;
                 downloadingComp0 = false;
             }
         }

@@ -42,11 +42,11 @@ public class AlexsComp : MonoBehaviour
 
             if (off2Slider.value >= off2Slider.maxValue)    //if download is complete
             {
-                item.office1Item = true;
+                item.alexofficeItem = true;
                 eUseImage.gameObject.SetActive(true);       //popup box actviates
                 off2Slider.gameObject.SetActive(false);     //Download bar deactivates
                 EToUse.text = dialog;                       //display downloaded information
-                playerScript.useOffice2Comp = false;
+                playerScript.useAlexsComp = false;
                 downloadingAlexsComp = false;
             }
         }

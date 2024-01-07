@@ -1,9 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
-using Unity.VisualScripting;
 
 public class BobSays : MonoBehaviour
 {
@@ -29,7 +26,7 @@ public class BobSays : MonoBehaviour
 
                     philSays.activeMyChoice = 1;
 
-                    philSays.playerChoice1.text = "How was the concert over the weekend?";
+                    philSays.playerChoice1.text = "How was your weekend concert?";
 
                     philSays.playerChoice2.text = "What'd the Doc say?";
 
@@ -44,7 +41,7 @@ public class BobSays : MonoBehaviour
 
                     actorName.text = "Bob";
 
-                    actorMessageText.text = "The Slick Willies ROCKED. Nothing like easy listening to start the weekend.";
+                    actorMessageText.text = "Slick Willies ROCKED. Nothing like easy listening to start the weekend.";
 
                     philSays.playerChoice1.text = "Too much partying?  What's the wife gonna think?";
 
